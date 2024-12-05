@@ -49,18 +49,18 @@ class Game:
 
     def load_assets(self): 
         # Absolute paths for graphics 
-        self.player_frames = import_folder(r'D:\Programming\Platform 4 finish\images\player')  # Updated path 
-        self.bullet_surf = import_image(r'D:\Programming\Platform 4 finish\images\gun', 'bullet')  # Updated path 
-        self.fire_surf = import_image(r'D:\Programming\Platform 4 finish\images\gun', 'fire')  # Updated path 
-        self.bee_frames = import_folder(r'D:\Programming\Platform 4 finish\images\enemies\bee')  # Updated path 
-        self.worm_frames = import_folder(r'D:\Programming\Platform 4 finish\images\enemies\worm')  # Updated path 
+        self.player_frames = import_folder(r'C:\Users\Swift3\Desktop\superrabbitch_shooting\images\player')  # Updated path 
+        self.bullet_surf = import_image(r'C:\Users\Swift3\Desktop\superrabbitch_shooting\images\gun', 'bullet')  # Updated path 
+        self.fire_surf = import_image(r'C:\Users\Swift3\Desktop\superrabbitch_shooting\images\gun', 'fire')  # Updated path 
+        self.bee_frames = import_folder(r'C:\Users\Swift3\Desktop\superrabbitch_shooting\images\enemies\bee')  # Updated path 
+        self.worm_frames = import_folder(r'C:\Users\Swift3\Desktop\superrabbitch_shooting\images\enemies\worm')  # Updated path 
 
         # Absolute path for sounds 
-        self.audio = audio_importer(r'D:\Programming\Platform 4 finish\audio')  # Updated path 
+        self.audio = audio_importer(r'C:\Users\Swift3\Desktop\superrabbitch_shooting\audio')  # Updated path 
 
     def setup(self, map_name="world2.tmx"): 
         # Absolute path for map file 
-        tmx_map = load_pygame(rf'D:\Programming\Platform 4 finish\data\maps\{map_name}')  # Updated path 
+        tmx_map = load_pygame(rf'C:\Users\Swift3\Desktop\superrabbitch_shooting\data\maps\{map_name}')  # Updated path 
         self.level_width = tmx_map.width * TILE_SIZE 
         self.level_height = tmx_map.height * TILE_SIZE 
 
