@@ -67,7 +67,7 @@
   <object id="4" name="Worm" x="1533.6" y="120.799" width="384" height="64"/>
   <object id="5" name="Worm" x="960" y="384" width="384" height="64"/>
   <object id="6" name="Worm" x="112.047" y="759.28" width="448" height="64"/>
-  <object id="8" name="Worm" x="1139.37" y="1136.13" width="448" height="64"/>
+  <object id="8" name="Worm" x="1144.17" y="1145.73" width="448" height="64"/>
   <object id="7" name="Worm" x="2349.79" y="761.013" width="384" height="64"/>
  </objectgroup>
 </map>
